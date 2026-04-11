@@ -72,6 +72,7 @@
     height: 32px;
     width: auto;
     object-fit: contain;
+    margin-right: 5px;
   }
 
   .nav-logo span {
@@ -1021,6 +1022,6 @@
     margin-left: 0px;
   }
     .nav-logo {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
   }
   }
