@@ -21,7 +21,10 @@
     <meta property="twitter:description" content="La santé mentale des jeunes, une urgence silencieuse. Découvrez nos actions.">
     <meta property="twitter:image" content="logo.webp">
 
+    <link rel="canonical" href="https://afr72140.github.io/">
     <link rel="icon" href="logo.webp" type="image/webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -64,10 +67,10 @@
       <div class="photo-block"><img src="image3.webp" alt="Image des membres de l'association"></div>
       <div class="photo-block"><img src="image4.webp" alt="Image des membres de l'association"></div>
       <!-- Duplicatas pour le loop -->
-      <div class="photo-block"><img src="image1.webp" alt="Image des membres de l'association"></div>
-      <div class="photo-block"><img src="image2.webp" alt="Image des membres de l'association"></div>
-      <div class="photo-block"><img src="image3.webp" alt="Image des membres de l'association"></div>
-      <div class="photo-block"><img src="image4.webp" alt="Image des membres de l'association"></div>
+      <div class="photo-block"><img src="image1.webp" alt="Image des membres de l'association" loading="lazy" decoding="async"></div>
+      <div class="photo-block"><img src="image2.webp" alt="Image des membres de l'association" loading="lazy" decoding="async"></div>
+      <div class="photo-block"><img src="image3.webp" alt="Image des membres de l'association" loading="lazy" decoding="async"></div>
+      <div class="photo-block"><img src="image4.webp" alt="Image des membres de l'association" loading="lazy" decoding="async"></div>
     </div>
   </div>
 </section>
@@ -121,8 +124,8 @@
     <div class="event-card reveal">
       <div class="event-date">Mai</div>
       <div class="event-month">2026</div>
-      <div class="event-name">Reportage Le Mag de la Santé (France 5)</div>
-      <p class="event-desc">L'association a eu l'honneur de tourner un reportage avec les équipes du Mag de la Santé pour parler de l'association, ses actions, et la santé mentale des jeunes.</p>
+      <div class="event-name">Journal Télévisé (France 5)</div>
+      <p class="event-desc">L'association sera présente sur le journal télévisé de France 5 pour parler de la santé mentale des jeunes.</p>
     </div>
     <div class="event-card reveal">
       <div class="event-date">6 Juin</div>
@@ -131,10 +134,10 @@
       <p class="event-desc">Retrouvez-nous au village de la santé à Conlie pour une journée dédiée au bien-être et à la santé.</p>
     </div>
     <div class="event-card reveal">
-      <div class="event-date">5 au 18 Octobre</div>
+      <div class="event-date">Octobre</div>
       <div class="event-month">2026</div>
-      <div class="event-name">Semaines d'information sur la santé mentale</div>
-      <p class="event-desc">Participation aux semaines nationales d'information sur la santé mentale pour sensibiliser le grand public.</p>
+      <div class="event-name">Journée de la santé mentale</div>
+      <p class="event-desc">Participation à la journée mondiale de la santé mentale pour sensibiliser le grand public.</p>
     </div>
   </div>
 </section>
@@ -240,11 +243,11 @@
         <div class="about-card-label" style="color: var(--sauge-fonce);">📸 Nos apparitions médias</div>
         <div class="media-grid">
           <div class="media-item">
-            <img src="imagemédia1.webp" alt="Apparition média 1">
+            <img src="imagemédia1.webp" alt="Apparition média 1" loading="lazy" decoding="async">
             <p class="media-caption">Premier épisode de l'émission « Des ados, la santé mentale et une radio ! » sur Fréquence Sillé (97.9 FM)</p>
           </div>
           <div class="media-item">
-            <img src="imagemédia2.webp" alt="Apparition média 2">
+            <img src="imagemédia2.webp" alt="Apparition média 2" loading="lazy" decoding="async">
             <p class="media-caption">Deuxième épisode de l'émission « Des ados, la santé mentale et une radio ! » sur Fréquence Sillé (97.9 FM)</p>
           </div>
         </div>
@@ -352,7 +355,7 @@
   </div>
 </footer>
 
-<script>
+<script defer>
 // ── FORMULAIRE - FORMSPREE
 const FORMSPREE_ID = "xvzvdbld";
 
